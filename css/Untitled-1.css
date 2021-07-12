@@ -1,0 +1,88 @@
+.navbar{
+  background-color:#0082e6 ;
+  padding: 1% 7%;
+  text-align: center;
+}
+.navbar a{
+ text-decoration: none;
+ color: white;
+ font-size: 1.2rem;
+ padding: 10px 20px;
+ cursor: pointer;
+}
+.dropdown-container{
+ display: inline-block;
+ position: relative;
+}
+.dropdown-content{
+ position: absolute;
+ top: 20px;
+ right: 0px;
+ background-color: #0082e6;
+ text-align: left;
+ min-width: 100%;
+ display: none;
+}
+.dropdown-content a{
+ display: block;
+
+}
+.dropdown-container:hover .dropdown-content{ 
+       display: block;
+       border: 1px;
+}
+.dropdown-content a:hover{
+ background-color: gray;
+}
+.navbar a:hover{
+ background-color: gray;
+}
+
+body{background-image: url("../img/fahim.jpg");
+  background-size: cover;
+  :fixed;
+}
+  #fahim{
+    background-color:aqua;
+  }
+
+  #footer ul {
+    text-align: right;
+  }
+  .pra{
+    border-width: 20px; border-style:outset; border-color:aqua; border-radius: 10px;
+    text-align:start; text-transform:capitalize; outline-style: inset;
+  }
+
+.rup{
+margin:100px ; padding:15px; outline-offset: 30px;text-transform:capitalize; outline-style: double;
+outline-color:red; border:5px double blue; border-radius: 8px;word-spacing: 5px; 
+    outline-width: thick;
+}
+.boma{
+
+   text-align: center; text-decoration: overline; text-decoration-color: firebrick; 
+ font-size: 50px; padding: 20px; line-height: 95px;  text-indent: 9px; margin: 100px;
+}
+h2{
+  text-align: center; 
+}
+span{
+  text-align: center; display: block;
+}
+
+ul li {
+  display: inline;
+}
+table,td,th{
+  border: 1px solid aqua; text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+td,th{
+  padding: 20px;
+}
+
